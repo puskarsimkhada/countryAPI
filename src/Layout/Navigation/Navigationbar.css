@@ -1,0 +1,30 @@
+.nav-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+.logo span{
+  font-size: 22px;
+  font-weight: 550;
+}
+.mode{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.mode .light, .mode .dark{
+  font-size: 18px;
+}
+.mode span{
+  cursor: pointer;
+  
+}
+.mode span:hover{
+  font-weight: 500;
+}

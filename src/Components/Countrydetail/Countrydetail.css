@@ -1,0 +1,84 @@
+
+.backbtn{
+  margin: 50px;
+  display: flex;
+  
+}
+.backbtn .btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgb(174, 173, 173);
+  border-radius: 4px;
+  padding: 3px 15px;
+}
+.backbtn .btn .arrow{
+  margin-right: 10px;
+  color: var(--color);
+}
+.backbtn .back{
+  text-decoration: none;
+  color: var(--color);
+}
+.country-detail{
+  margin: 50px;
+  display: flex;
+  gap: 100px;
+}
+.country-detail .left{
+  width: 500px;
+  height: 300px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.country-detail .left img{
+  width: 100%;
+  height: 100%;
+}
+.country-detail .right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.country-detail .right h2{
+  font-size: 30px;
+}
+.country-detail .right .middle{
+  display: flex;
+  gap: 60px;
+}
+.country-detail .right .middle .middle-left p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.country-detail .right .middle .middle-left span{
+  color: var(--color);
+  font-weight: 400;
+}
+.country-detail .right .bottom{
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.country-detail .right .bottom span{
+  font-weight: 500;
+}
+.country-detail .right .bottom .bordercountry{
+  display: flex;
+}
+.country-detail .right .bottom .bordercountry .c1{
+  padding: 2px 12px;
+  border-radius: 3px;
+  border: 1px solid rgb(183, 181, 181);
+  margin: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+.country-detail .right .bottom .bordercountry .c1:hover{
+  background-color: rgb(63, 66, 68);
+}

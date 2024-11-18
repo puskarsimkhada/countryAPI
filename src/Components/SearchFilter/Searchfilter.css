@@ -1,0 +1,39 @@
+.filter-box{
+  margin: 50px;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-field{
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: 4px;
+}
+.input-field .searchIcon{
+  color: rgb(114, 115, 115);
+  margin-right: 10px;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+.input-field .inputData{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+.drop .filterDrop{
+  padding: 8px 10px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border: none;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+}

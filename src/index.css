@@ -1,0 +1,26 @@
+/* #202c36 - Dark Mode Background*/
+/* #2b3845 - Dark Mode Element */
+/* #111517 - Light Mode Text */
+/* #f9f9f9 - Light Mode Background */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+ body.lightmodebody{
+  background-color: white;
+  color: black;
+ }
+ body.darkmodebody{
+  background-color: #34434f;
+  color: white;
+ }
+body.darkmode{
+  --background-color: #202c36;
+  --color: white;
+}
+body.lightmode{
+  --background-color: white;
+  --color: black;
+}
