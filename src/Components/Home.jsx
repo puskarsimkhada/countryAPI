@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     const countryAPI = async () => {
       try {
-        const APIURL = "https://restcountries.com/v3.1/all";
+        const APIURL = "https://restcountries.com/v3.1/all?fields=name,capital,flags,region,population,language";
         const res = await fetch(APIURL);
         const data = await res.json();
         setCountry(data);
